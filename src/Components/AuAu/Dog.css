@@ -1,0 +1,25 @@
+.rounded {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    color: white;
+    background: rgb(41 41 41);
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% + 20px);
+}
+
+.rounded:disabled {
+    background-color: rebeccapurple !important;
+}
+
+
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}

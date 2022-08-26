@@ -1,0 +1,104 @@
+input.reset {
+    all: unset;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#App {
+    min-height: 100vh;
+    height: 100%;
+}
+
+
+
+.btn {
+    transition: all .3s ease-in-out;
+    background: #2f2f2f;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #e3e3e3;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 4px 36px;
+    box-shadow: 0 0 8px 2px #84848440;
+    border-radius: 3px;
+}
+
+.btn:active {
+    background: #696969;
+    transform: scale(.98);
+}
+
+.btn:disabled {
+    background: #000000;
+    color: gray;
+    pointer-events: none;
+}
+
+.btn.transp {
+    background-color: rgba(0, 0, 0, 0.04);
+    box-shadow: none;
+    color: black;
+}
+
+.btn.ico {
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+    color: black;
+    font-size: 22px;
+}
+
+.card {
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px 1px #00000036;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+input {
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+
+
+
+
+.absoluteCenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+

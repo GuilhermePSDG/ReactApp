@@ -1,0 +1,49 @@
+.topBar {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(108 114 225);
+    padding: 10px 50px;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.topBarItem {
+    background: #00000024;
+    padding: 3px 12px;
+    border-radius: 30px;
+    color: white;
+}
+
+.topBarItem.active {
+    background-color: #ffffffed;
+    color: #6c72e1;
+    font-weight: 700;
+}
+
+
+.space {
+    flex-grow: 1;
+}
+
+#company {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: 7px;
+
+    border-radius: 83% 70% 100% 57% / 67% 47% 68% 100%;
+
+
+    background: linear-gradient(90deg, rgba(147, 209, 238, 1) 0%, rgba(160, 189, 255, 1) 37%, rgba(0, 212, 255, 1) 100%);
+    color: black;
+    box-shadow: 3px 3px 0px 0px black;
+    transition: all .3s;
+}
+
+#company:hover,
+#company.active {
+    color: #5d62c1;
+    box-shadow: -3px -3px 0px 0px white;
+}
